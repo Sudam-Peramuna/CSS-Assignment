@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans+SC:wght@500&family=Noto+Sans+Thai+Looped&family=Open+Sans:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Noto+Sans+JP&family=Noto+Sans+SC:wght@500&family=Noto+Sans+Thai+Looped&family=Open+Sans:wght@500&family=Roboto&display=swap');
+
+#heading {
+    text-align: left;
+
+}
+
+.A4-container {
+
+    width: 850px;
+    height: 1200px;
+    margin: 1cm auto;
+   
+
+}
+
+#heading-paragraph {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 16.5pt;
+    margin-top: 1em;
+    text-align: justify;
+}
+
+#first-sentence {
+    color: red;
+}
+
+.images {
+    width: 230px;
+    height: 320px;
+    object-fit: cover;
+    border: 1px solid white;
+    margin-right: 3px;
+
+}
+
+#image-container {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+/* //---------------------------Left Container--------------------------- */
+.left-container {
+    position: absolute;
+    width: 425px;
+    height: 850px;
+
+    border-color: #900;
+
+}
+
+/* //-------------------------HABITAT AND DIET--------------------------- */
+#topic-one {
+    margin-top: 1.5em;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+#box-container-01 {
+    margin-top: 2em;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000;
+    margin-right: 10px;
+}
+
+#topic-one-container {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+#second-paragraph {
+    margin-left: 30px;
+    font-size: 11pt;
+    text-align: justify;
+    top: 5px;
+    left: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 550;
+}
+
+#space {
+    margin-top: 4;
+}
+
+/* //---------------------------FAMILY LIFE--------------------------- */
+#topic-two {
+    margin-top: 1.5em;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+#box-container-02 {
+    margin-top: 2em;
+    width: 20px;
+    height: 20px;
+    background-color: #0059ff;
+    margin-right: 10px;
+}
+
+#topic-two-container {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.third-paragraph {
+    margin-left: 30px;
+    font-size: 11pt;
+    text-align: justify;
+    top: 10px;
+    left: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 550;
+}
+
+/* //---------------------------Right Container--------------------------- */
+.right-container {
+    position: absolute;
+    margin-top: 3.5em;
+    margin-left: 460px;
+    width: 350px;
+    height: 900px;
+
+
+    background-color: #ddd;
+}
+
+.middle-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-kiwi {
+    margin-top: 1em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#range-kiwi {
+    font-size: 15px;
+    margin-top: -0.2em;
+
+}
+
+#img-4 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid white;
+    margin-right: 3px;
+    margin-left: 50px;
+}
+
+#north-kiwi {
+    color: blue;
+    font-size: 15px;
+    margin-top: 0.1em;
+}
+
+#specification-container {
+    width: 350x;
+    height: 40px;
+    background-color: rgb(159, 222, 34)
+}
+
+#scienctific-specification {
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0.5em;
+
+}
+
+/* //---------------------------Sciencetific Specification Details--------------------------- */
+.specific-names {
+    color: blue;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.names {
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+.first-name {
+    margin-bottom: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+}
+
+#colon-1 {
+    margin-left: 38px;
+}
+
+#colon-2 {
+    margin-left: 28px;
+}
+
+#colon-3 {
+    margin-left: 39px;
+}
+
+#colon-4 {
+    margin-left: 55px;
+}
+
+#colon-5 {
+    margin-left: 61px;
+}
+
+#colon-6 {
+    margin-left: 23px;
+}
+
+#colon-7 {
+    margin-left: 55px;
+}
+
+#colon-8 {
+    margin-left: 55px;
+}
+
+#colon-9 {
+    margin-left: 48px;
+}
+
+#colon-10 {
+    margin-left: 50px;
+}
+
+#Type-Species {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0.5em;
+}
+
+#Type-container {
+    width: 350x;
+    height: 40px;
+    background-color: rgb(161, 7, 33);
+}
+
+#link-word {
+    color: darkblue;
+    margin-top: 1em;
+    font-size: 20px;
+
+}
+
+#link-word:hover {
+    background-color: #0453e6;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#word-protect-Kiwi {
+    margin-top: 1040px;
+    font-family: 'Leckerli One', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
